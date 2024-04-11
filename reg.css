@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.message{
+    position: sticky;
+    padding: 15px 10px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 600;
+    text-transform: capitalize;
+    
+
+}
+.background{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.146) url(bgc/login1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+}
+.regpage{
+    padding: 0px 123px;
+}
+.logo{
+    padding: 20px 35px;  
+    font-size: 23px;
+}
+.logo h2{
+    color: white;
+font-weight: 600;
+}
+.logo B{
+    color: orangered;
+    font-weight: 600;
+}
+.reg{
+    border: 2px solid black;
+    width: 30vw;
+    height: 75vh;
+    background-color: rgba(255, 255, 255, 0.484);
+}
+.container{
+    text-align: center;
+    line-height: 55px;
+   
+}
+.container h1{
+    color: rgb(37, 34, 33);
+    font-style: italic;
+    
+}
+.container .button{
+    background-color: orangered;
+    color: #ffeae1;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    border: solid 2px rgb(43, 41, 41);
+    font-weight: 600;
+}
+.container p a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    
+    
+}
+.container label{
+    color: rgb(36, 33, 33);
+    font-weight: 600;
+}
+.container input{
+    background-color: #fff;
+    border-radius: 5px;
+    border: solid 1.5px black;
+}
+.already a{
+    font: 600;
+
+}

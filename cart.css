@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main {
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.4) url(bgc/tasty-pizza-near-ingredients.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+}
+
+
+.nav.logo h2 {
+    font-weight: 600;
+    font-family: sans-serif;
+  color: white;
+
+}
+
+.nav .logo B {
+    color: rgb(255, 95, 37);
+    
+}

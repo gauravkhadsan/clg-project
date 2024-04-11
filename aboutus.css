@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    background: url(bgc/aboutusbgc.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    
+}
+.content{
+    display: flex;
+}
+.left {
+    width: 50vw;
+    height: 100vh;
+   
+    text-align: center;
+    
+}
+.info b{
+    color: orangered;
+}
+.left .info{
+    line-height: 23px;
+   padding: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: 400;
+}
+.left button{
+    position:fixed;
+    bottom: 20px;
+    left: 35px;
+    padding:2px;
+    background-color: orangered;
+    color: #ffeae0;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: none;
+}
+.right .rinfo{
+    font-weight: 600;
+    padding: 23px;
+   display: flex;
+   justify-content: flex-end;
+   font-size: larger; 
+}
+.right b{
+    color: rgb(248, 73, 9);
+
+}
+.right .contact img{
+    width: auto;
+    height:25px;
+    border-radius: 50%;
+}
+.contact{
+    right: 20px;
+    bottom: 50px;
+    position: fixed;
+}
+.contact ul li{
+    list-style: none;
+}
+.contact a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+
+}
+.right{
+    width: 50vw;
+    height: 100vh;
+    
+}
+.code{
+    padding: 0px 5px;
+    display: flex;
+    position: absolute;
+    justify-content: end;
+    bottom: 12px;
+}

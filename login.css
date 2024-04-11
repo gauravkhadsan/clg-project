@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.146) url(bgc/login1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+}
+.already{
+    padding-top: 8px;
+}
+
+form p a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    
+}
+
+.form-signin{
+    background-color: transparent;
+    padding: 1rem;
+    margin: auto;
+    width: 340px;
+    height: auto;
+    align-items: center;
+
+}
+form{
+    padding: 24px;
+}
+input{
+    border: solid 1px black;
+}
+.btn{
+    margin-top: 8px ;
+}
